@@ -3,3 +3,9 @@ body,
 #react-root {
   height: 100%;
 }
+
+body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #ffffff;
+}
