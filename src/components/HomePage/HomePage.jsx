@@ -1,13 +1,14 @@
 import React from 'react';
-// import self from './selfphoto.png';
-// import '../App/App.css';
+import self from './selfphoto.png';
+
 
 function HomePage() {
     return(
         <div className="container">
             <h1>Portfolio</h1>
-            <div className="selfimgcontainer">
-                
+            
+            <div className="selfImgContainer">
+                <img className='selfImg' src={self} alt='image of John Maybee' />
             </div>
         </div>
     )
@@ -16,7 +17,6 @@ function HomePage() {
 export default HomePage;
 
 
-{/* <img classname='self-img' src={self} alt='image of John Maybee' /> */}
 
 // import {Box} from '@mui/material';
 
