@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {
   HashRouter as Router,
   Redirect,
   Route,
   Switch,
 } from 'react-router-dom';
-import'./App.css';
+import './App.css';
 
 // could add a header that I import here then put before the nav in the return
 import Nav from '../Nav/Nav';
@@ -34,10 +34,7 @@ function App() {
           </Route>
 
           {/* Visiting localhost:3000/about will show the about page. */}
-          <Route
-            exact
-            path="/about"
-          >
+          <Route exact path="/about">
             <AboutPage />
           </Route>
 

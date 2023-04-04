@@ -1,0 +1,28 @@
+/* Path: src/App/App.css */
+
+html,
+body,
+#react-root {
+  height: 100%;
+}
+
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #ffffff;
+}
+
+/* .self-img-container {
+    max-width: 250px;
+    max-height: 250px;
+    align-items: center;
+    position: relative;
+    border: 2px solid transparent;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-image-source: linear-gradient(to right, #39DD85, #223651);
+} */
+
+/* do I need to list transparent above? */
