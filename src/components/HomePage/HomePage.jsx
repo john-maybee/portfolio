@@ -5,10 +5,16 @@ import self from './selfphoto.png';
 function HomePage() {
     return(
         <div className="container">
-            <h1>Portfolio</h1>
-            
-            <div className="selfImgContainer">
-                <img className='selfImg' src={self} alt='image of John Maybee' />
+            <div className="headerContainer">
+                <h2>Hi, I'm John Maybee</h2>
+            </div>
+            <div>
+                <div className="selfImgContainer">
+                    <img className='selfImg' src={self} alt='image of John Maybee' />
+                </div>
+                <div className="introContainer">
+                    
+                </div>
             </div>
         </div>
     )
