@@ -16,7 +16,7 @@ body {
 .navContainer{
   /* flex box layout */
   display: flex;
-  justify-content: space-between;
+  justify-content:space-around;
   align-items: center;
   margin: 0px 0px 10px;
   overflow: hidden;
@@ -48,6 +48,7 @@ body {
   border-top-right-radius: 50%;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,0.4);
 }
 
 /* do I need to list transparent above? */
