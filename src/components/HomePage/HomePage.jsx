@@ -1,5 +1,6 @@
 import React from 'react';
 import self from './selfphoto.png';
+import { Email } from '@mui/icons-material';
 
 
 function HomePage() {
@@ -13,7 +14,12 @@ function HomePage() {
                     <img className='selfImg' src={self} alt='image of John Maybee' />
                 </div>
                 <div className="introContainer">
-                    
+                    <h3>Software Developer</h3>
+                    <p>trained in the full stack</p>
+                    <p>driven learner and researcher</p>
+                    <p>dedicated dog dad to Winnie</p>
+                    <p><Email className='icon' fontSize="small" sx={{color: '#223651'}}/> john.d.maybee@gmail.com</p>
+                    <p></p>
                 </div>
             </div>
         </div>
