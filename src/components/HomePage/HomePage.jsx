@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import self from './selfphoto.png';
-import { Email } from '@mui/icons-material';
+import { Email, GitHub, LinkedIn } from '@mui/icons-material';
+import { Tooltip } from '@mui/material';
 
 
 function HomePage() {
@@ -19,7 +21,14 @@ function HomePage() {
                     <p>driven learner and researcher</p>
                     <p>dedicated dog dad to Winnie</p>
                     <p><Email className='icon' fontSize="small" sx={{color: '#223651'}}/> john.d.maybee@gmail.com</p>
-                    <p></p>
+                    <p>
+                        <a href='https://github.com/john-maybee'id='github link'>
+                            <Tooltip title="Link to John's GitHub" arrow><GitHub sx={{color: '#223651'}} /></Tooltip>
+                        </a> 
+                        <a href='https://www.linkedin.com/in/john-d-maybee/' id='linkedin link'>
+                            <Tooltip title="Link to John's LinkedIn" arrow><LinkedIn sx={{color: '#223651'}} /></Tooltip>
+                        </a>
+                    </p>
                 </div>
             </div>
         </div>
@@ -28,6 +37,7 @@ function HomePage() {
 
 export default HomePage;
 
+{/* <Link to={{ pathname:"https://github.com/john-maybee"}}></Link> */}
 
 
 // import {Box} from '@mui/material';
