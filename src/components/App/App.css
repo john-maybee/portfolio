@@ -64,4 +64,22 @@ body {
   box-shadow: 0 .5rem 1rem rgba(0,0,0,0.4);
 }
 
+.githubIcon{
+  top: 5px;
+  padding-left: 10px;
+  position: relative;
+}
+
+.linkedinIcon{
+  top: 5px;
+  padding-left: 10px;
+  position: relative;
+}
+
+.workIcon{
+  top: 5px;
+  padding-left: 10px;
+  position: relative;
+}
+
 /* do I need to list transparent above? */
