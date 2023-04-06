@@ -35,6 +35,11 @@ body {
   padding-bottom: 20px;
 }
 
+.intro{
+  display: flex;
+  flex-direction: row;
+}
+
 .navLink{
   color: #223651;
   text-decoration: none;
@@ -60,6 +65,7 @@ body {
     border-top-right-radius: 50%;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
+    padding-right: 40px;
 }
 
 .selfImg{
@@ -91,6 +97,13 @@ body {
   top: 5px;
   padding-left: 10px;
   position: relative;
+}
+
+.footer{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #223651;
+  text-align: center;
 }
 
 /* do I need to list transparent above? */
