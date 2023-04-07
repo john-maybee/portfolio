@@ -1,4 +1,6 @@
-import React from "react";
+import React from 'react';
+import firstpage from './firstpage.png';
+import secondpage from './secondpage.png';
 
 function AboutPage() {
   return (
