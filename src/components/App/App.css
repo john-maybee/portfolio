@@ -13,6 +13,10 @@ body {
     color: #223651;
 }
 
+/* --------------------------------------------------------------------------------
+Nav Treatment
+-------------------------------------------------------------------------------- */
+
 .navContainer{
   /* flex box layout */
   display: flex;
@@ -27,22 +31,6 @@ body {
   /* background-image: linear-gradient(to left, #39DD85, #ffffff); */
 }
 
-.container{
-  padding-top: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.headerContainer{
-  padding-bottom: 20px;
-}
-
-.intro{
-  display: flex;
-  flex-direction: row;
-}
-
 .navLink{
   color: #223651;
   text-decoration: none;
@@ -53,22 +41,45 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
-.icon{
-  position: relative;
-  top: 5px;
-  padding-right: 10px;
+/* --------------------------------------------------------------------------------
+Container Treatment
+-------------------------------------------------------------------------------- */
+
+.container{
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* --------------------------------------------------------------------------------
+Header Treatment
+-------------------------------------------------------------------------------- */
+
+.headerContainer{
+  padding-bottom: 20px;
+}
+
+/* --------------------------------------------------------------------------------
+Intro Treatment
+-------------------------------------------------------------------------------- */
+
+.intro{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .selfImgContainer {
-    max-width: 250px;
-    max-height: 250px;
-    align-items: center;
-    position: relative;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    padding-right: 40px;
+  max-width: 250px;
+  max-height: 250px;
+  align-items: center;
+  position: relative;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  padding-right: 40px;
 }
 
 .selfImg{
@@ -82,6 +93,12 @@ body {
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,0.4);
+}
+
+.icon{
+  position: relative;
+  top: 5px;
+  padding-right: 10px;
 }
 
 .githubIcon{
@@ -102,6 +119,10 @@ body {
   position: relative;
 }
 
+/* --------------------------------------------------------------------------------
+Footer Treatment
+-------------------------------------------------------------------------------- */
+
 .footer{
   color: rgba(34, 54, 81, 0.5);
   text-align: center;
@@ -112,5 +133,3 @@ body {
   width: 100%;
   overflow: hidden;
 }
-
-/* do I need to list transparent above? */
