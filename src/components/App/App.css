@@ -1,4 +1,7 @@
 /* Path: src/App/App.css */
+html{
+  min-height: 100%;
+}
 
 html,
 body,
