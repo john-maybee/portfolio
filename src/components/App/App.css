@@ -86,27 +86,31 @@ body {
 
 .githubIcon{
   top: 5px;
-  padding-left: 10px;
+  padding-left: 15px;
   position: relative;
 }
 
 .linkedinIcon{
   top: 5px;
-  padding-left: 10px;
+  padding-left: 15px;
   position: relative;
 }
 
 .workIcon{
   top: 5px;
-  padding-left: 10px;
+  padding-left: 15px;
   position: relative;
 }
 
 .footer{
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #223651;
+  color: rgba(34, 54, 81, 0.5);
   text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
 }
 
 /* do I need to list transparent above? */
