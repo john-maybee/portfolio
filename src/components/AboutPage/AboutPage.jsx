@@ -3,7 +3,9 @@ import React from "react";
 function AboutPage() {
   return (
     <div className="container">
-      <p>About</p>
+      <div className="headerContainer">
+          <h2>My Resumé</h2>
+      </div>
     </div>
   );
 }
