@@ -18,6 +18,16 @@ body {
 }
 
 /* --------------------------------------------------------------------------------
+Dom Treatment
+-------------------------------------------------------------------------------- */
+
+.theDom{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+/* --------------------------------------------------------------------------------
 Nav Treatment
 -------------------------------------------------------------------------------- */
 
@@ -62,6 +72,7 @@ Header Treatment
 
 .headerContainer{
   padding-bottom: 20px;
+  text-align: center;
 }
 
 /* --------------------------------------------------------------------------------
@@ -73,6 +84,8 @@ Intro Treatment
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+
 
 .selfImgContainer {
   max-width: 250px;
@@ -89,8 +102,6 @@ Intro Treatment
 .selfImg{
   max-width: inherit;
   max-height: inherit;
-  border: 2px solid transparent;
-  background-image: linear-gradient(to botttom right, #39DD85, #223651);
   border: 3px solid #39DD85;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
@@ -124,16 +135,73 @@ Intro Treatment
 }
 
 /* --------------------------------------------------------------------------------
+Resumé Page Treatment
+-------------------------------------------------------------------------------- */
+
+.resumeContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.firstPageContainer{
+  display: flex;
+  max-width: 100%;
+  padding-bottom: 20px;
+  margin: auto;
+  justify-content: center;
+}
+
+.firstPageImg{
+  width: 95%;
+  max-width: 8.5in;
+  margin: auto;
+  border: 3px solid #39DD85;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,0.4);
+}
+
+.secondPageContainer{
+  display: flex;
+  max-width: 100%;
+  padding-bottom: 20px;
+  margin: auto;
+  justify-content: center;
+}
+
+.secondPageImg{
+  width: 95%;
+  max-width: 8.5in;
+  margin: auto;
+  
+  border: 3px solid #39DD85;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,0.4);
+}
+
+/* --------------------------------------------------------------------------------
 Footer Treatment
 -------------------------------------------------------------------------------- */
 
 .footer{
   color: rgba(34, 54, 81, 0.5);
   text-align: center;
-  position: absolute;
+  position: bottom;
+  margin-top: auto;
   left: 0;
   bottom: 0;
   height: 100px;
   width: 100%;
   overflow: hidden;
 }
+
