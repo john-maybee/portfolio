@@ -32,16 +32,16 @@ function HomePage() {
                         <img className='selfImg' src={self} alt='image of John Maybee' />
                     </div>
                     <div className="introContainer">
-                        <Typography variant="h5" gutterBottom>About me:</Typography>
-                        <Typography variant="h6" gutterBottom>Software Developer</Typography>
-                        <Typography variant="body1" gutterBottom>trained in the full stack</Typography>
-                        <Typography variant="body1" gutterBottom>driven learner and researcher</Typography>
-                        <Typography variant="body1" gutterBottom>dedicated dog dad to Winnie</Typography>
-                        <Typography variant="body1" gutterBottom>
+                        <Typography variant="h5" fontWeight={500} gutterBottom>About me:</Typography>
+                        <Typography variant="h6" fontWeight={400} gutterBottom>Software Developer</Typography>
+                        <Typography variant="body1" fontWeight={300} gutterBottom>trained in the full stack</Typography>
+                        <Typography variant="body1" fontWeight={300} gutterBottom>driven learner and researcher</Typography>
+                        <Typography variant="body1" fontWeight={300} gutterBottom>dog dad to Winnie</Typography>
+                        <Typography variant="body1" fontWeight={300} gutterBottom>
                             <Email className='icon' fontSize="small" sx={{color: '#262D3D'}}/>
                             john.d.maybee@gmail.com
                         </Typography>
-                        <Typography variant="body1" gutterBottom>visit my:
+                        <Typography variant="body1" fontWeight={300} gutterBottom>visit my:
                             <a href='https://github.com/john-maybee'id='github link'>
                                 <Tooltip title="Link to John's GitHub" arrow>
                                     <GitHub className='githubIcon' fontSize="small" sx={{color: '#39AB63'}} />

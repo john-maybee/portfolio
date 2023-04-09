@@ -41,6 +41,7 @@ Nav Treatment
   border-bottom: 1px solid #70B5BC;
   padding-right: 20px;
   padding-left: 20px;
+  padding-top: 10px;
 }
 
 .navLink{
@@ -58,6 +59,13 @@ Container Treatment
 -------------------------------------------------------------------------------- */
 
 .container{
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutContainer{
   padding-top: 30px;
   display: flex;
   flex-direction: column;
