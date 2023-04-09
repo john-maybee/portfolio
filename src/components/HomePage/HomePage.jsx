@@ -5,6 +5,7 @@ import { Email, GitHub, LinkedIn, Work } from '@mui/icons-material';
 import { Tooltip } from '@mui/material';
 
 
+
 function HomePage() {
     return(
         <div className="container">
@@ -16,7 +17,8 @@ function HomePage() {
                     <img className='selfImg' src={self} alt='image of John Maybee' />
                 </div>
                 <div className="introContainer">
-                    <h3>Software Developer</h3>
+                    <h3 className='introHeader'>About me:</h3>
+                    <h4>Software Developer</h4>
                     <p>trained in the full stack</p>
                     <p>driven learner and researcher</p>
                     <p>dedicated dog dad to Winnie</p>
@@ -27,17 +29,17 @@ function HomePage() {
                     <p>visit my:
                         <a href='https://github.com/john-maybee'id='github link'>
                             <Tooltip title="Link to John's GitHub" arrow>
-                                <GitHub className='githubIcon' fontSize="small" sx={{color: '#223651'}} />
+                                <GitHub className='githubIcon' fontSize="small" sx={{color: '#6A7097'}} />
                             </Tooltip>
                         </a> 
                         <a href='https://www.linkedin.com/in/john-d-maybee/' id='linkedin link'>
                             <Tooltip title="Link to John's LinkedIn" arrow>
-                                <LinkedIn className='linkedinIcon' fontSize="small" sx={{color: '#223651'}} />
+                                <LinkedIn className='linkedinIcon' fontSize="small" sx={{color: '#6A7097'}} />
                             </Tooltip>
                         </a>
                             <Tooltip title="John's resumé" arrow>
                                 <Link to="/about" >
-                                    <Work className='workIcon' fontSize="small" sx={{color: '#223651'}}/>
+                                    <Work className='workIcon' fontSize="small" sx={{color: '#6A7097'}}/>
                                 </Link>
                             </Tooltip>
                     </p>

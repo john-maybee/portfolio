@@ -13,7 +13,6 @@ body,
 body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     margin: 0px;
-    background-color: #ffffff;
     color: #223651;
 }
 
@@ -25,6 +24,7 @@ Dom Treatment
   display: flex;
   flex-direction: column;
   min-height: 100%;
+  background-color: #E7E7E2
 }
 
 /* --------------------------------------------------------------------------------
@@ -38,11 +38,9 @@ Nav Treatment
   align-items: center;
   margin: 0px 0px 10px;
   overflow: hidden;
-  background-color: #ffffff;
-  border-bottom: 1px solid #39DD85;
+  border-bottom: 1px solid #79A6B6;
   padding-right: 20px;
   padding-left: 20px;
-  /* background-image: linear-gradient(to left, #39DD85, #ffffff); */
 }
 
 .navLink{
@@ -85,29 +83,27 @@ Intro Treatment
   flex-wrap: wrap;
 }
 
-
+.introHeader{
+  color: #6A7097;
+}
 
 .selfImgContainer {
   max-width: 250px;
   max-height: 250px;
   align-items: center;
   position: relative;
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
-  border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 50%;
   padding-right: 40px;
+  padding-top: 20px;
 }
 
 .selfImg{
   max-width: inherit;
   max-height: inherit;
-  border: 3px solid #39DD85;
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
-  border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 50%;
+  border: 3px solid #9AB39C;
+  background-color: #9AB39C;
+  border-radius: 50%;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,0.4);
+  
 }
 
 .icon{
@@ -160,7 +156,7 @@ Resumé Page Treatment
   width: 95%;
   max-width: 8.5in;
   margin: auto;
-  border: 3px solid #39DD85;
+  border: 3px solid #6A7097;
   border-top-left-radius: 5%;
   border-top-right-radius: 5%;
   border-bottom-left-radius: 5%;
@@ -180,8 +176,7 @@ Resumé Page Treatment
   width: 95%;
   max-width: 8.5in;
   margin: auto;
-  
-  border: 3px solid #39DD85;
+  border: 3px solid #6A7097;
   border-top-left-radius: 5%;
   border-top-right-radius: 5%;
   border-bottom-left-radius: 5%;
@@ -205,3 +200,6 @@ Footer Treatment
   overflow: hidden;
 }
 
+
+
+/* #39DD85 previously used neon color */
