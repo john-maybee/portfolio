@@ -3,49 +3,65 @@ import { Link } from "react-router-dom";
 import self from './selfphoto.png';
 import { Email, GitHub, LinkedIn, Work } from '@mui/icons-material';
 import { Tooltip } from '@mui/material';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+import Typography from '@mui/material/Typography';
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
 
-
+const theme = createTheme({
+    typography: {
+      fontFamily: [
+        'Roboto',
+      ],
+    }
+});
 
 function HomePage() {
     return(
-        <div className="container">
-            <div className="headerContainer">
-                <h2>Hi, I'm John Maybee</h2>
-            </div>
-            <div className='intro'>
-                <div className="selfImgContainer">
-                    <img className='selfImg' src={self} alt='image of John Maybee' />
+        <ThemeProvider theme={theme}>
+            <div className="container">
+                <br />
+                <div className="headerContainer">
+                    <Typography variant="h4" gutterBottom>Hi, I'm John Maybee</Typography>
                 </div>
-                <div className="introContainer">
-                    <h3 className='introHeader'>About me:</h3>
-                    <h4>Software Developer</h4>
-                    <p>trained in the full stack</p>
-                    <p>driven learner and researcher</p>
-                    <p>dedicated dog dad to Winnie</p>
-                    <p>
-                        <Email className='icon' fontSize="small" sx={{color: '#223651'}}/>
-                        john.d.maybee@gmail.com
-                    </p>
-                    <p>visit my:
-                        <a href='https://github.com/john-maybee'id='github link'>
-                            <Tooltip title="Link to John's GitHub" arrow>
-                                <GitHub className='githubIcon' fontSize="small" sx={{color: '#6A7097'}} />
-                            </Tooltip>
-                        </a> 
-                        <a href='https://www.linkedin.com/in/john-d-maybee/' id='linkedin link'>
-                            <Tooltip title="Link to John's LinkedIn" arrow>
-                                <LinkedIn className='linkedinIcon' fontSize="small" sx={{color: '#6A7097'}} />
-                            </Tooltip>
-                        </a>
-                            <Tooltip title="John's resumé" arrow>
-                                <Link to="/about" >
-                                    <Work className='workIcon' fontSize="small" sx={{color: '#6A7097'}}/>
-                                </Link>
-                            </Tooltip>
-                    </p>
+                <br />
+                <div className='intro'>
+                    <div className="selfImgContainer">
+                        <img className='selfImg' src={self} alt='image of John Maybee' />
+                    </div>
+                    <div className="introContainer">
+                        <Typography variant="h5" gutterBottom>About me:</Typography>
+                        <Typography variant="h6" gutterBottom>Software Developer</Typography>
+                        <Typography variant="body1" gutterBottom>trained in the full stack</Typography>
+                        <Typography variant="body1" gutterBottom>driven learner and researcher</Typography>
+                        <Typography variant="body1" gutterBottom>dedicated dog dad to Winnie</Typography>
+                        <Typography variant="body1" gutterBottom>
+                            <Email className='icon' fontSize="small" sx={{color: '#262D3D'}}/>
+                            john.d.maybee@gmail.com
+                        </Typography>
+                        <Typography variant="body1" gutterBottom>visit my:
+                            <a href='https://github.com/john-maybee'id='github link'>
+                                <Tooltip title="Link to John's GitHub" arrow>
+                                    <GitHub className='githubIcon' fontSize="small" sx={{color: '#39AB63'}} />
+                                </Tooltip>
+                            </a> 
+                            <a href='https://www.linkedin.com/in/john-d-maybee/' id='linkedin link'>
+                                <Tooltip title="Link to John's LinkedIn" arrow>
+                                    <LinkedIn className='linkedinIcon' fontSize="small" sx={{color: '#39AB63'}} />
+                                </Tooltip>
+                            </a>
+                                <Tooltip title="John's resumé" arrow>
+                                    <Link to="/about" >
+                                        <Work className='workIcon' fontSize="small" sx={{color: '#39AB63'}}/>
+                                    </Link>
+                                </Tooltip>
+                        </Typography>
+                    </div>
                 </div>
             </div>
-        </div>
+        </ThemeProvider>
     )
 }
 

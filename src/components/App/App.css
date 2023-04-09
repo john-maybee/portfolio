@@ -13,7 +13,7 @@ body,
 body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     margin: 0px;
-    color: #223651;
+    color: #262D3D;
 }
 
 /* --------------------------------------------------------------------------------
@@ -24,7 +24,7 @@ Dom Treatment
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  background-color: #E7E7E2
+  background-color: #F4F5F0
 }
 
 /* --------------------------------------------------------------------------------
@@ -38,7 +38,7 @@ Nav Treatment
   align-items: center;
   margin: 0px 0px 10px;
   overflow: hidden;
-  border-bottom: 1px solid #79A6B6;
+  border-bottom: 1px solid #70B5BC;
   padding-right: 20px;
   padding-left: 20px;
 }
@@ -83,8 +83,16 @@ Intro Treatment
   flex-wrap: wrap;
 }
 
-.introHeader{
-  color: #6A7097;
+.introContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 100%;
+  margin: auto;
 }
 
 .selfImgContainer {
@@ -92,18 +100,18 @@ Intro Treatment
   max-height: 250px;
   align-items: center;
   position: relative;
-  padding-right: 40px;
-  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;;
+  margin: auto;
 }
 
 .selfImg{
   max-width: inherit;
   max-height: inherit;
-  border: 3px solid #9AB39C;
-  background-color: #9AB39C;
+  border: 3px solid #39AB63;
+  background-color: #39AB63;
   border-radius: 50%;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,0.4);
-  
 }
 
 .icon{
@@ -156,7 +164,7 @@ Resumé Page Treatment
   width: 95%;
   max-width: 8.5in;
   margin: auto;
-  border: 3px solid #6A7097;
+  border: 3px solid #39AB63;
   border-top-left-radius: 5%;
   border-top-right-radius: 5%;
   border-bottom-left-radius: 5%;
@@ -176,7 +184,7 @@ Resumé Page Treatment
   width: 95%;
   max-width: 8.5in;
   margin: auto;
-  border: 3px solid #6A7097;
+  border: 3px solid #39AB63;
   border-top-left-radius: 5%;
   border-top-right-radius: 5%;
   border-bottom-left-radius: 5%;
