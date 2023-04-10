@@ -7,7 +7,6 @@ import {
 } from 'react-router-dom';
 import './App.css';
 
-// could add a header that I import here then put before the nav in the return
 import Nav from '../Nav/Nav';
 import Footer from '../Footer/Footer';
 import AboutPage from '../AboutPage/AboutPage';
@@ -16,8 +15,6 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
-
-
 import './App.css';
 
 

@@ -8,6 +8,8 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 
+
+////////////////////////AboutPage Theme////////////////////////
 const theme = createTheme({
   typography: {
     fontFamily: [
@@ -16,6 +18,8 @@ const theme = createTheme({
   }
 });
 
+
+////////////////////////AboutPage Component////////////////////////
 function AboutPage() {
   return (
     <ThemeProvider theme={theme}>

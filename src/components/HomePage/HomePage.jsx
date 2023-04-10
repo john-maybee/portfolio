@@ -10,6 +10,7 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 
+////////////////////////HomePage Theme////////////////////////
 const theme = createTheme({
     typography: {
       fontFamily: [
@@ -18,6 +19,8 @@ const theme = createTheme({
     }
 });
 
+
+////////////////////////HomePage Component////////////////////////
 function HomePage() {
     return(
         <ThemeProvider theme={theme}>

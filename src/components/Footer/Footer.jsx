@@ -6,6 +6,8 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 
+
+////////////////////////Footer Theme////////////////////////
 const theme = createTheme({
     typography: {
       fontFamily: [
@@ -14,6 +16,7 @@ const theme = createTheme({
     }
 });
 
+////////////////////////Footer Component////////////////////////
 function Footer() {
     return(
         <ThemeProvider theme={theme}>
