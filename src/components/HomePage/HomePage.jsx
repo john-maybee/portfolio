@@ -1,6 +1,14 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import self from './selfphoto.png';
+import tatuser from './tatuserpage.png';
+import createidea from './tatcreateidea.png';
+import ideas from './tatideaspage.png';
+import editidea from './tateditidea.png';
+import createartist from './tatcreateartist.png';
+import artists from './tatartistspage.png';
+import about from './tataboutpage.png';
+import tatregister from './tatregister.png';
 import { Email, GitHub, LinkedIn, Work } from '@mui/icons-material';
 import { Tooltip } from '@mui/material';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
