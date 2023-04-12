@@ -76,62 +76,79 @@ function HomePage() {
                 </div>
                 <div className='projectContainer'>
                     <div className='imageListContainer'>
+                        <Typography variant="h5" fontWeight={400}>Full Stack Solo Project</Typography>
                         <ImageList sx={{width: 400, height: 400}} cols={1}>
                             <ImageListItem>
                                 <img src={tatuser} alt='Image of the user home page from To Tat solo project' loading='lazy'/>
-                                <ImageListItemBar 
-                                    title='User Home Page'
-                                    position='below'
-                                />
+                                <Typography variant="subtitle1" fontWeight={300} gutterBottom>
+                                    <ImageListItemBar 
+                                        title='User Home Page'
+                                        position='below'
+                                    />
+                                </Typography>
                             </ImageListItem>
                             <ImageListItem>
                                 <img src={createidea} alt='Image of the create new idea page' loading='lazy'/>
-                                <ImageListItemBar 
-                                    title='Create Idea Page'
-                                    position='below'
-                                />
+                                <Typography variant="subtitle1" fontWeight={300} gutterBottom>   
+                                    <ImageListItemBar 
+                                        title='Create Idea Page'
+                                        position='below'
+                                    />
+                                </Typography>
                             </ImageListItem>
                             <ImageListItem>
                                 <img src={ideas} alt='Image of the user ideas page' loading='lazy'/>
-                                <ImageListItemBar 
-                                    title='Ideas Page'
-                                    position='below'
-                                />
+                                <Typography variant="subtitle1" fontWeight={300} gutterBottom>    
+                                    <ImageListItemBar 
+                                        title='Ideas Page'
+                                        position='below'
+                                    />
+                                </Typography>
                             </ImageListItem>
                             <ImageListItem>
                                 <img src={editidea} alt='Image of the edit idea page' loading='lazy'/>
-                                <ImageListItemBar 
-                                    title='Edit Idea Page'
-                                    position='below'
-                                />
+                                <Typography variant="subtitle1" fontWeight={300} gutterBottom>     
+                                    <ImageListItemBar 
+                                        title='Edit Idea Page'
+                                        position='below'
+                                    />
+                                </Typography>
                             </ImageListItem>
                             <ImageListItem>
                                 <img src={createartist} alt='Image of the create artist page' loading='lazy'/>
-                                <ImageListItemBar 
-                                    title='Create Artist Page'
-                                    position='below'
-                                />
+                                <Typography variant="subtitle1" fontWeight={300} gutterBottom>    
+                                    <ImageListItemBar 
+                                        title='Create Artist Page'
+                                        position='below'
+                                    />
+                                </Typography>
                             </ImageListItem>
                             <ImageListItem>
                                 <img src={artists} alt='Image of the user artists page' loading='lazy'/>
-                                <ImageListItemBar 
-                                    title='Artists Page'
-                                    position='below'
-                                />
+                                <Typography variant="subtitle1" fontWeight={300} gutterBottom> 
+                                    <ImageListItemBar 
+                                        title='Artists Page'
+                                        position='below'
+                                    />
+                                </Typography>
                             </ImageListItem>
                             <ImageListItem>
                                 <img src={about} alt='Image of the about To Tat page' loading='lazy'/>
-                                <ImageListItemBar 
-                                    title='About Page'
-                                    position='below'
-                                />
+                                <Typography variant="subtitle1" fontWeight={300} gutterBottom> 
+                                    <ImageListItemBar 
+                                        title='About Page'
+                                        position='below'
+                                    />
+                                </Typography>
                             </ImageListItem>
                             <ImageListItem>
                                 <img src={tatregister} alt='Image of the registration page' loading='lazy'/>
-                                <ImageListItemBar 
-                                    title='Register Page'
-                                    position='below'
-                                />
+                                <Typography variant="subtitle1" fontWeight={300} gutterBottom>     
+                                    <ImageListItemBar 
+                                        title='Register Page'
+                                        position='below'
+                                    />
+                                </Typography>
                             </ImageListItem>
                         </ImageList>
                     </div>
