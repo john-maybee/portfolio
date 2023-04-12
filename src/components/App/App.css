@@ -89,7 +89,7 @@ Intro Treatment
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 .introContainer{
@@ -153,7 +153,9 @@ Intro Treatment
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 500px;
+  height: 500px;
+  max-width: 90%;
   margin: auto;
   border: 3px solid #39AB63;
   border-top-left-radius: 5%;

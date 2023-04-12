@@ -75,7 +75,7 @@ function HomePage() {
                     </div>
                 </div>
                 <div className='imageListContainer'>
-                    <ImageList sx={{width: 400, height: 900}} cols={1}>
+                    <ImageList sx={{width: 400, height: 400}} cols={1}>
                         <ImageListItem>
                             <img src={tatuser} alt='Image of the user home page from To Tat solo project' loading='lazy'/>
                             <ImageListItemBar 
