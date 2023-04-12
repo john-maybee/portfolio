@@ -89,6 +89,7 @@ Intro Treatment
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding-bottom: 40px;
 }
 
 .introContainer{
@@ -152,9 +153,14 @@ Intro Treatment
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
-  padding-bottom: 20px;
-  max-width: 95%;
+  width: 90%;
+  margin: auto;
+  border: 3px solid #39AB63;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,0.4);
 }
 
 /* --------------------------------------------------------------------------------
@@ -225,6 +231,7 @@ Footer Treatment
   height: 100px;
   width: 100%;
   overflow: hidden;
+  padding-top: 40px;
 }
 
 
