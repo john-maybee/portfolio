@@ -146,6 +146,17 @@ Intro Treatment
   position: relative;
 }
 
+.imageListContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  max-width: 95%;
+}
+
 /* --------------------------------------------------------------------------------
 Resumé Page Treatment
 -------------------------------------------------------------------------------- */
