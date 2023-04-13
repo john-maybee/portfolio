@@ -1,14 +1,5 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import self from './selfphoto.png';
-import tatuser from './tatuserpage.png';
-import createidea from './tatcreateidea.png';
-import ideas from './tatideaspage.png';
-import editidea from './tateditidea.png';
-import createartist from './tatcreateartist.png';
-import artists from './tatartistspage.png';
-import about from './tataboutpage.png';
-import tatregister from './tatregister.png';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
@@ -20,6 +11,24 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
+
+////////////////////////HomePage Images////////////////////////
+// Self Image
+import self from './selfphoto.png';
+// To Tat Solo Project Images
+import tatuser from './tatuserpage.png';
+import createidea from './tatcreateidea.png';
+import ideas from './tatideaspage.png';
+import editidea from './tateditidea.png';
+import createartist from './tatcreateartist.png';
+import artists from './tatartistspage.png';
+import about from './tataboutpage.png';
+import tatregister from './tatregister.png';
+// Movies Saga Project Images
+import moviemain from './moviesagasmain.png';
+import movieone from './moviesagadetails.png';
+import movietwo from './moviesagadetailstwo.png';
+import moviethree from './moviesagadetailsthree.png';
 
 ////////////////////////HomePage Theme////////////////////////
 const theme = createTheme({
@@ -161,15 +170,4 @@ function HomePage() {
 export default HomePage;
 
 {/* <Link to={{ pathname:"https://github.com/john-maybee"}}></Link> */}
-
-
-// import {Box} from '@mui/material';
-
-/* height={{xs: '35vh', md: '40vh'}}
-              borderRadius={'50%'} p={'0.75rem'} mb={{xs: '1rem', sm: 0}} mr={{xs: 0, md: '2rem'}} */
-              /* style={{background: info.gradient}} */
-              /* width={{xs: '35vh', md: '40vh'}} */
-
-              /* component={'img'} */
-
-              /* <Box classname='selfimg' src={self} alt={'image of John Maybee'} /> */
+{/* <Link to={{ pathname:"https://www.linkedin.com/in/john-d-maybee/"}}></Link> */}
