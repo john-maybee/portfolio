@@ -83,6 +83,7 @@ function HomePage() {
                         </Typography>
                     </div>
                 </div>
+                <br />
                 <div className='projectContainer'>
                     <div className='imageListContainer'>
                         <Typography variant="h5" fontWeight={400}>Full Stack Solo Project</Typography>
@@ -155,6 +156,47 @@ function HomePage() {
                                 <Typography variant="subtitle1" fontWeight={300} gutterBottom>     
                                     <ImageListItemBar 
                                         title='Register Page'
+                                        position='below'
+                                    />
+                                </Typography>
+                            </ImageListItem>
+                        </ImageList>
+                    </div>
+                    <div className='imageListtwoContainer'>
+                        <Typography variant="h5" fontWeight={400}>Movies Saga</Typography>
+                        <ImageList sx={{width: 400, height: 400}} cols={1}>
+                            <ImageListItem>
+                                <img src={moviemain} alt='Image of the home page from a Movies Saga project' loading='lazy'/>
+                                <Typography variant="subtitle1" fontWeight={300} gutterBottom>
+                                    <ImageListItemBar 
+                                        title='Movies Saga Home Page'
+                                        position='below'
+                                    />
+                                </Typography>
+                            </ImageListItem>
+                            <ImageListItem>
+                                <img src={movieone} alt='Example 1 of the Movies Saga details page with details about Avatar' loading='lazy'/>
+                                <Typography variant="subtitle1" fontWeight={300} gutterBottom>   
+                                    <ImageListItemBar 
+                                        title='Movies Saga Details Page Example 1'
+                                        position='below'
+                                    />
+                                </Typography>
+                            </ImageListItem>
+                            <ImageListItem>
+                                <img src={movietwo} alt='Example 2 of the Movies Saga details page with details about The Life of Pi' loading='lazy'/>
+                                <Typography variant="subtitle1" fontWeight={300} gutterBottom>    
+                                    <ImageListItemBar 
+                                        title='Movies Saga Details Page Example 2'
+                                        position='below'
+                                    />
+                                </Typography>
+                            </ImageListItem>
+                            <ImageListItem>
+                                <img src={moviethree} alt='Example 3 of the Movies Saga details page with details about The Martian' loading='lazy'/>
+                                <Typography variant="subtitle1" fontWeight={300} gutterBottom>     
+                                    <ImageListItemBar 
+                                        title='Movies Saga Details Page Example 3'
                                         position='below'
                                     />
                                 </Typography>
