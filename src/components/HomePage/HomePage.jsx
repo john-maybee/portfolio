@@ -84,6 +84,7 @@ function HomePage() {
                     </div>
                 </div>
                 <br />
+                <br />
                 <div className='projectContainer'>
                     <div className='imageListContainer'>
                         <Typography variant="h5" fontWeight={400}>Full Stack Solo Project</Typography>
