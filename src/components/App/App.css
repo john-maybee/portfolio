@@ -98,8 +98,9 @@ Intro Treatment
   justify-content: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 20px;
+  /* padding-left: 20px; */
   padding-right: 20px;
+  
   max-width: 100%;
   margin: auto;
 }
@@ -109,7 +110,7 @@ Intro Treatment
   max-height: 250px;
   align-items: center;
   position: relative;
-  padding-right: 20px;
+  /* padding-right: 40px; */
   padding-left: 20px;;
   margin: auto;
 }
@@ -191,6 +192,11 @@ Intro Treatment
   border-bottom-left-radius: 3%;
   border-bottom-right-radius: 3%;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,0.4);
+}
+
+.spaceContainer{
+  width: 20px;
+  height: 20px;
 }
 
 /* --------------------------------------------------------------------------------

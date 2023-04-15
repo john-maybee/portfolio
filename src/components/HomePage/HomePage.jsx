@@ -51,9 +51,12 @@ function HomePage() {
                 </div>
                 <br />
                 <div className='intro'>
+                    <div className='spaceContainer'></div> 
                     <div className="selfImgContainer">
                         <img className='selfImg' src={self} alt='image of John Maybee' />
                     </div>
+                    <div className='spaceContainer'></div> 
+                    <div className='spaceContainer'></div>
                     <div className="introContainer">
                         <Typography variant="h5" fontWeight={500} gutterBottom>About me:</Typography>
                         <Typography variant="h6" fontWeight={400} gutterBottom>Software Developer</Typography>
@@ -82,10 +85,12 @@ function HomePage() {
                                 </Tooltip>
                         </Typography>
                     </div>
+                    <div className='spaceContainer'></div>
                 </div>
                 <br />
                 <br />
                 <div className='projectContainer'>
+                    <div className='spaceContainer'></div> 
                     <div className='imageListContainer'>
                         <Typography variant="h5" fontWeight={400}>Full Stack Solo Project</Typography>
                         <ImageList sx={{width: 400, height: 400}} cols={1}>
@@ -163,6 +168,7 @@ function HomePage() {
                             </ImageListItem>
                         </ImageList>
                     </div>
+                    <div className='spaceContainer'></div>                    
                     <div className='imageListtwoContainer'>
                         <Typography variant="h5" fontWeight={400}>Movies Saga</Typography>
                         <ImageList sx={{width: 400, height: 400}} cols={1}>
@@ -204,7 +210,9 @@ function HomePage() {
                             </ImageListItem>
                         </ImageList>
                     </div>
+                    <div className='spaceContainer'></div> 
                 </div>
+
             </div>
         </ThemeProvider>
     )
