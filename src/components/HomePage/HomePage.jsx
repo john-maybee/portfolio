@@ -29,6 +29,10 @@ import moviemain from './moviesagasmain.png';
 import movieone from './moviesagadetails.png';
 import movietwo from './moviesagadetailstwo.png';
 import moviethree from './moviesagadetailsthree.png';
+// React Gallery Project Images
+import gallerymain from './reactgallery.png';
+import galleryclicked from './reactgalleryclicked.png';
+import gallerywarning from './reactgallerywarning.png';
 
 ////////////////////////HomePage Theme////////////////////////
 const theme = createTheme({
@@ -212,6 +216,40 @@ function HomePage() {
                     </div>
                     <div className='spaceContainer'></div> 
                 </div>
+                <br />
+                    <div className='imageListContainer'>
+                        <Typography variant="h5" fontWeight={400}>React Gallery Project</Typography>
+                        <ImageList sx={{width: 400, height: 400}} cols={1}>
+                            <ImageListItem>
+                                <img src={gallerymain} alt='Image of the home page from the React Gallery project' loading='lazy'/>
+                                <Typography variant="subtitle1" fontWeight={300} gutterBottom>
+                                    <ImageListItemBar 
+                                        title='Gallery Page'
+                                        position='below'
+                                    />
+                                </Typography>
+                            </ImageListItem>
+                            <ImageListItem>
+                                <img src={galleryclicked} alt='Image of the React Gallery project when a photo is clicked' loading='lazy'/>
+                                <Typography variant="subtitle1" fontWeight={300} gutterBottom>   
+                                    <ImageListItemBar 
+                                        title='React Gallery Photo Clicked'
+                                        position='below'
+                                    />
+                                </Typography>
+                            </ImageListItem>
+                            <ImageListItem>
+                                <img src={gallerywarning} alt='Image of the warning popup when the like button is clicked' loading='lazy'/>
+                                <Typography variant="subtitle1" fontWeight={300} gutterBottom>    
+                                    <ImageListItemBar 
+                                        title='Popup When Image Is Liked'
+                                        position='below'
+                                    />
+                                </Typography>
+                            </ImageListItem>
+                        </ImageList>
+                    </div>
+                
 
             </div>
         </ThemeProvider>
