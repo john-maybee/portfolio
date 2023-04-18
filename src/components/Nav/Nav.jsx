@@ -28,7 +28,7 @@ function Nav() {
                     </Link>
                 </Tooltip>
                 {/* <Divider orientation="vertical" variant="middle" flexItem /> */}
-                <Typography variant="h4" fontWeight={700} gutterBottom>jm</Typography>
+                <Typography className="pageTitle" variant="h4" fontWeight={700} gutterBottom>jm</Typography>
                 {/* <Divider orientation="vertical" variant="middle" flexItem /> */}
                 <Tooltip title="Resumé" arrow>
                     <Link className="navLink" to="/about" >
