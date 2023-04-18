@@ -62,7 +62,6 @@ Container Treatment
   padding-top: 30px;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .aboutContainer{
@@ -95,14 +94,11 @@ Intro Treatment
 .introContainer{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding-top: 20px;
+  padding-top: 15px;
   padding-bottom: 20px;
-  /* padding-left: 20px; */
-  padding-right: 20px;
-  
   max-width: 100%;
-  margin: auto;
+  margin-left: 10px;
+  margin-right: auto;
 }
 
 .selfImgContainer {
@@ -110,9 +106,8 @@ Intro Treatment
   max-height: 250px;
   align-items: center;
   position: relative;
-  /* padding-right: 40px; */
-  padding-left: 20px;;
-  margin: auto;
+  margin-left: auto;
+  margin-right: 20px;
 }
 
 .selfImg{
@@ -148,16 +143,19 @@ Intro Treatment
   position: relative;
 }
 
+/* --------------------------------------------------------------------------------
+Project Display Treatment
+-------------------------------------------------------------------------------- */
+
 .projectContainer{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
- 
+  margin-left: auto;
+  margin-right: auto;
   max-width: 95%;
-  margin: auto;
-
 }
 
 .imageListContainer{
@@ -167,8 +165,9 @@ Intro Treatment
   align-items: center;
   width: 500px;
   height: 500px;
-  max-width: 99%;
-  margin: auto;
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
   border: 3px solid #223651;
   border-top-left-radius: 3%;
   border-top-right-radius: 3%;
@@ -177,30 +176,7 @@ Intro Treatment
   box-shadow: 0 .5rem 1rem rgba(0,0,0,0.4);
   background-color: #223651;
   color: #F4F5F0;
-}
-
-.imageListtwoContainer{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 500px;
-  height: 500px;
-  max-width: 99%;
-  margin: auto;
-  border: 3px solid #223651;
-  border-top-left-radius: 3%;
-  border-top-right-radius: 3%;
-  border-bottom-left-radius: 3%;
-  border-bottom-right-radius: 3%;
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,0.4);
-  background-color: #223651;
-  color: #F4F5F0;
-}
-
-.spaceContainer{
-  width: 20px;
-  height: 20px;
+  margin-top: 20px;
 }
 
 /* --------------------------------------------------------------------------------
