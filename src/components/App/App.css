@@ -89,19 +89,21 @@ Header Treatment
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 20px;
 }
 
 .skillsContainer{
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   max-width: 100%;
-  gap: 20px;
+  gap: 10px;
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
-  
+  /* border-top: 4px solid #39AB63;
+  border-bottom: 4px solid #39AB63; */
 }
 
 .skillsList{
@@ -112,8 +114,16 @@ Header Treatment
   max-width: 100%;
   justify-content: center;
   align-items: center;
-  border-top: 4px solid #39AB63;
-  border-bottom: 4px solid #39AB63;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 1px;
+  padding-right: 1px;
+  border-top: 2px solid #39AB63;
+  border-bottom: 2px solid #39AB63;
+  border-left: 2px solid #39AB63;
+  border-right: 2px solid #39AB63;
+  border-radius: 50px;
+  box-shadow: 0 .5rem .5rem rgba(0,0,0,0.4);
 }
 
 /* --------------------------------------------------------------------------------
