@@ -93,8 +93,37 @@ function HomePage() {
                 </div>
                 <br />
                 <br />
+                <div className='skillsHeader'>
+                    <Typography variant="h5" fontWeight={500} gutterBottom>Skills</Typography>
+                </div>
                 <div className='skillsContainer'>
-                    <Typography variant="h5" fontWeight={400} gutterBottom>Skills:</Typography>
+                    <div className='skillsList'>
+                        <Typography variant="body1" fontWeight={300} gutterBottom>JavaScript</Typography>
+                        <Typography variant="body1" fontWeight={300} gutterBottom>React</Typography>
+                        <Typography variant="body1" fontWeight={300} gutterBottom>Redux</Typography>
+                        <Typography variant="body1" fontWeight={300} gutterBottom>CSS3</Typography>
+                        <Typography variant="body1" fontWeight={300} gutterBottom>HTML5</Typography>
+                        <Typography variant="body1" fontWeight={300} gutterBottom>jQuery</Typography>
+                        <Typography variant="body1" fontWeight={300} >Node.js</Typography>
+                    </div>
+                    <div className='skillsList'>
+                        <Typography variant="body1" fontWeight={300} gutterBottom>Express.js</Typography>
+                        <Typography variant="body1" fontWeight={300} gutterBottom>Axios</Typography>
+                        <Typography variant="body1" fontWeight={300} gutterBottom>PostgreSQL</Typography>
+                        <Typography variant="body1" fontWeight={300} gutterBottom>Postico</Typography>
+                        <Typography variant="body1" fontWeight={300} gutterBottom>Material-UI</Typography>
+                        <Typography variant="body1" fontWeight={300} gutterBottom>Git</Typography>
+                        <Typography variant="body1" fontWeight={300} >GitHub</Typography>
+                    </div>
+                    <div className='skillsList'>
+                        <Typography variant="body1" fontWeight={300} gutterBottom>VS Code</Typography>
+                        <Typography variant="body1" fontWeight={300} gutterBottom>RESTful APIs</Typography>
+                        <Typography variant="body1" fontWeight={300} gutterBottom>Postman</Typography>
+                        <Typography variant="body1" fontWeight={300} gutterBottom>Figma</Typography>
+                        <Typography variant="body1" fontWeight={300} gutterBottom>Collaborative Development</Typography>
+                        <Typography variant="body1" fontWeight={300} gutterBottom>Responsive Design</Typography>
+                        <Typography variant="body1" fontWeight={300} >Project Scoping</Typography>
+                    </div>
                 </div>
                 <br />
                 <div className='projectContainer'>
