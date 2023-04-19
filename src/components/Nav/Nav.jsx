@@ -24,7 +24,7 @@ function Nav() {
             <div className="navContainer">
                 <Tooltip title="Home" arrow>
                     <Link className="navLink" to="/home" >
-                        <Cottage sx={{color: '#223651'}}/>
+                        <Cottage sx={{color: '#223651', "& :hover": { color: "#39AB63" }}}/>
                     </Link>
                 </Tooltip>
                 {/* <Divider orientation="vertical" variant="middle" flexItem /> */}
@@ -32,7 +32,7 @@ function Nav() {
                 {/* <Divider orientation="vertical" variant="middle" flexItem /> */}
                 <Tooltip title="Resumé" arrow>
                     <Link className="navLink" to="/about" >
-                        <Work sx={{color: '#223651'}}/>
+                        <Work sx={{color: '#223651', "& :hover": { color: "#39AB63" }}}/>
                     </Link>
                 </Tooltip>
             </div>
