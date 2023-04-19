@@ -97,7 +97,7 @@ function HomePage() {
                     {/* <div className='spaceContainer'></div>  */}
                     <div className='imageListContainer'>
                         <Typography variant="h5" fontWeight={400}>Full Stack Solo Project</Typography>
-                        <ImageList sx={{width: 400, height: 400}} cols={1}>
+                        <ImageList sx={{width: 400, height: 500}} cols={1}>
                             <ImageListItem>
                                 <img src={tatuser} alt='Image of the user home page from To Tat solo project' loading='lazy'/>
                                 <Typography variant="subtitle1" fontWeight={300} gutterBottom>
@@ -175,7 +175,7 @@ function HomePage() {
                     {/* <div className='spaceContainer'></div>                     */}
                     <div className='imageListContainer'>
                         <Typography variant="h5" fontWeight={400}>Movies Saga</Typography>
-                        <ImageList sx={{width: 400, height: 400}} cols={1}>
+                        <ImageList sx={{width: 400, height: 500}} cols={1}>
                             <ImageListItem>
                                 <img src={moviemain} alt='Image of the home page from a Movies Saga project' loading='lazy'/>
                                 <Typography variant="subtitle1" fontWeight={300} gutterBottom>
@@ -219,7 +219,7 @@ function HomePage() {
                     <br />
                     <div className='imageListContainer'>
                         <Typography variant="h5" fontWeight={400}>React Gallery Project</Typography>
-                        <ImageList sx={{width: 400, height: 400}} cols={1}>
+                        <ImageList sx={{width: 400, height: 500}} cols={1}>
                             <ImageListItem>
                                 <img src={gallerymain} alt='Image of the home page from the React Gallery project' loading='lazy'/>
                                 <Typography variant="subtitle1" fontWeight={300} gutterBottom>
