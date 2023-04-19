@@ -185,6 +185,12 @@ Project Display Treatment
   margin-top: 40px;
 }
 
+.projectIcon{
+  top: 4px;
+  padding-left: 10px;
+  position: relative;
+}
+
 /* --------------------------------------------------------------------------------
 Resumé Page Treatment
 -------------------------------------------------------------------------------- */

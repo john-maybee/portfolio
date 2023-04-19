@@ -96,7 +96,11 @@ function HomePage() {
                 <div className='projectContainer'>
                     {/* <div className='spaceContainer'></div>  */}
                     <div className='imageListContainer'>
-                        <Typography variant="h5" fontWeight={400}>Full Stack Solo Project</Typography>
+                        <Typography variant="h5" fontWeight={400}>Full Stack Solo Project<a href='https://github.com/john-maybee/to-tat-solo-project'id='github link'>
+                                <Tooltip title="Link to this project's GitHub repository" arrow>
+                                    <GitHub className='projectIcon' sx={{color: '#39AB63'}} />
+                                </Tooltip>
+                            </a></Typography>
                         <ImageList sx={{width: 400, height: 500}} cols={1}>
                             <ImageListItem>
                                 <img src={tatuser} alt='Image of the user home page from To Tat solo project' loading='lazy'/>
