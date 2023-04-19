@@ -93,6 +93,10 @@ function HomePage() {
                 </div>
                 <br />
                 <br />
+                <div className='skillsContainer'>
+                    <Typography variant="h5" fontWeight={400} gutterBottom>Skills:</Typography>
+                </div>
+                <br />
                 <div className='projectContainer'>
                     {/* <div className='spaceContainer'></div>  */}
                     <div className='imageListContainer'>
